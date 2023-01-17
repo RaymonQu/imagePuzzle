@@ -1,0 +1,44 @@
+.imageGrid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 10px;
+    justify-content: center;
+}
+
+.imageGrid > image{
+    position: absolute;
+}
+
+h1{
+    text-align: center;
+}
+
+img:hover {
+    -webkit-filter: brightness(200%);
+ }
+
+h2{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h3{
+    display: none;
+    text-align: center;
+}
+
+body{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

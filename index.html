@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="imageScript.js"></script>
+<body>
+    <h1>Image Puzzle</h1>
+    <h2>The goal of this game is to match the image puzzle pieces to create the correct fully connected image as shown before you. 
+        <br />You can shuffle with the button below the image. Each click is worth one point, once correctly matched the game is over.
+        <br />This is AI art which is why there are six (seven?) fingers</h2>
+    <h2 id="score">Score: 0</h2>
+    <h3 id="winmessage">asdfasfd</h3>
+    <div class="imageGrid">
+        <img id="piece0" onclick="movePuzzle(0)" src="images/image1.png" alt="image">
+        <img id="piece1" onclick="movePuzzle(1)" src="images/image2.png" alt="image">
+        <img id="piece2" onclick="movePuzzle(2)" src="images/image3.png" alt="image">
+        <img id="piece3" onclick="movePuzzle(3)" src="images/image4.png" alt="image">
+        <img id="piece4" onclick="movePuzzle(4)" src="images/image5.png" alt="image">
+        <img id="piece5" onclick="movePuzzle(5)" src="images/image6.png" alt="image">
+        <img id="piece6" onclick="movePuzzle(6)" src="images/image7.png" alt="image">
+        <img id="piece7" onclick="movePuzzle(7)" src="images/image8.png" alt="image">
+        <img id="piece8" onclick="movePuzzle(8)" src="images/image9.png" alt="image">
+        <img id="piece9" onclick="movePuzzle(9)" src="images/image10.png" alt="image">
+        <img id="piece10" onclick="movePuzzle(10)" src="images/image11.png" alt="image">
+        <img id="piece11" onclick="movePuzzle(11)" src="images/image12.png" alt="image">
+        <img id="piece12" onclick="movePuzzle(12)" src="images/image13.png" alt="image">
+        <img id="piece13" onclick="movePuzzle(13)" src="images/image14.png" alt="image">
+        <img id="piece14" onclick="movePuzzle(14)" src="images/image15.png" alt="image">
+        <img id="piece15" onclick="movePuzzle(15)" src="images/image16.png" alt="image">
+    </div>
+    <div class="container">
+        <button id="shuffle" onclick="shuffleBoard()">Click to shuffle</button>
+    </div>
+</body>
+</html>
